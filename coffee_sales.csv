@@ -1,0 +1,16 @@
+Customer,Drink,Size,Price,Quantity,Date
+Alice,Latte,Medium,4.50,2,2025-10-01
+Bob,Espresso,Small,3.00,1,2025-10-01
+Charlie,Cappuccino,Large,5.00,3,2025-10-02
+Diana,Mocha,Medium,4.75,2,2025-10-02
+Ethan,Americano,Large,3.50,1,2025-10-03
+Fiona,Latte,Small,4.00,2,2025-10-03
+George,Espresso,Medium,3.25,1,2025-10-04
+Hannah,Cappuccino,Large,5.00,2,2025-10-04
+Ian,Mocha,Small,4.25,1,2025-10-05
+Jane,Americano,Medium,3.75,2,2025-10-05
+Kevin,Latte,Large,5.25,1,2025-10-06
+Lily,Espresso,Small,3.00,3,2025-10-06
+Mike,Cappuccino,Medium,4.75,2,2025-10-07
+Nina,Mocha,Large,5.00,1,2025-10-07
+Oscar,Americano,Small,3.25,2,2025-10-08
