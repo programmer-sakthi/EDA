@@ -3,29 +3,24 @@ import pandas as pd
 # checking pandas version 
 print(pd.__version__)
 
-# creating a series 
-s = pd.Series([1, 3, 5, np.nan, 6, 8])
+# Series 
+
+# series is a one-dimensional array-like object containing a sequence of values
+
+data = [100,200,300,400,'a']
+s = pd.Series(data )
+print(s)
+s=pd.Series(data,index=['a','b','c','d','e'])
 print(s)
 
-# creating a dataframe 
-df = pd.DataFrame({
-    'A': 1,
-    'B': 2,
-    'C': 3,
-    'D': 4,
-    'E': 5
-})
-print(df)
+# loc is used to access a group of rows and columns by label(s) or a boolean array.
+print(s.loc['a']) 
+print(s.loc['b':'d'])
+print
+s.loc['a':'c']=1000
+print(s)
 
-# reading a csv file 
-df = pd.read_csv('coffee_sales.csv')
-print(df)
 
-# display first 5 rows 
-print(df.head())
-
-# display last 5 rows 
-print(df.tail())
 
 
 
