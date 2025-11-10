@@ -26,7 +26,7 @@ def compute():
     corr_with_rating = df[["price", "final_amount", "service_rating"]].corr(
         method="pearson"
     )
-    print(corr_with_rating)
+    print(corr_with_rating) 
 
     # Insights
     print(
