@@ -18,9 +18,6 @@ def compute():
     df['total_amount'] = pd.to_numeric(df['total_amount'], errors='coerce')
     df['rating'] = pd.to_numeric(df['rating'], errors='coerce')
 
-    # Drop rows with missing values in these columns
-    df = df.dropna(subset=['total_amount', 'rating'])
-
     # --- Pearson Correlation (linear relationship) ---
     pearson_corr = df[['total_amount', 'rating']].corr(method='pearson')
     print("Pearson Correlation:")
