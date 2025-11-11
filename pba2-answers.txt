@@ -1,0 +1,64 @@
+*open the URLs for corresponding answers
+
+PART B :
+
+https://github.com/programmer-sakthi/EDA/tree/master/Day%204/test_PlotwithSeaborn%E2%80%8B 
+
+----------------------------------------------------------------------------------------------
+PART C :
+
+import pandas as pd
+import os 
+import sys 
+
+
+n=int(input())
+
+arr=[]
+
+print("Initial DataFrame:")
+for i in range(n):
+    id,name,marks=input().split()
+    arr.append({
+        'ID':id,
+        'Name':name,
+        'Marks':marks
+})
+
+
+    
+df=pd.DataFrame(arr)
+print(df)
+
+id,name,marks=input().split()
+newRow=pd.DataFrame([
+    {
+        'ID':id,
+        'Name':name,
+        'Marks':marks
+    }
+])
+df=pd.concat([df,newRow],ignore_index=True)
+print("\nAfter Insertion:")
+# df=df.reset_index()
+print(df)
+
+id,marks = input().split()
+
+
+print(f"\nAfter Update (Marks Updated for ID {id}):")
+df.loc[df['ID']==id,'Marks']=marks
+df.reset_index()
+print(df)
+
+id=input()
+print(f"\nAfter Deletion (Record Deleted for ID {id}):")
+condition=df['ID']==id
+index=df[~condition]
+print(index)
+
+----------------------------------------------------------------------------------------------
+
+PART D :
+
+https://github.com/programmer-sakthi/EDA/blob/master/Day%206/Practice/test_day7_question_9.py
