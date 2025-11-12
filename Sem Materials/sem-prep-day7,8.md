@@ -1,5 +1,7 @@
 # Types of Plots
 
+_Day 7 is about univariate and bivariate plots,Day 8 is about multivariate plots_
+
 ## 🔹 **Univariate Plots**
 
 ➡️ Involve **only one variable** — used to study its **distribution, spread, or frequency**.
