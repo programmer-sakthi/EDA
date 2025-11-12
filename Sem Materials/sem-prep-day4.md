@@ -62,9 +62,9 @@ plt.title("Iris Dataset Visualization")
 plt.show()
 ```
 
-# Common Plot Types
+## Common Plot Types
 
-## 1. Histogram
+### 1. Histogram
 
 - **Definition:** Shows the distribution of numerical data by dividing it into bins (ranges).
 - **Use:** To understand frequency distribution.
@@ -77,7 +77,9 @@ plt.title("Histogram")
 plt.show()
 ```
 
-## 2. Bar Chart
+![Histogram](./plots/histogram.png)
+
+### 2. Bar Chart
 
 - **Definition:** Displays categorical data with rectangular bars whose heights represent values.
 - **Use:** To compare quantities across categories.
@@ -89,6 +91,8 @@ plt.bar(categories, values, color='orange')
 plt.title("Bar Chart")
 plt.show()
 ```
+
+![Bar Chart](./plots/bar_chart.png)
 
 ## 3. Line Plot
 
@@ -103,6 +107,8 @@ plt.title("Line Plot")
 plt.show()
 ```
 
+![Line Plot](./plots/line_plot.png)
+
 ## 4. Scatter Plot
 
 - **Definition:** Shows relationship between two variables using dots.
@@ -114,6 +120,8 @@ sns.scatterplot(x=[1,2,3,4,5], y=[5,4,3,2,1])
 plt.title("Scatter Plot")
 plt.show()
 ```
+
+![Scatter Plot](./plots/scatter_plot.png)
 
 ## 5. Stacked Bar Chart
 
@@ -131,6 +139,8 @@ plt.legend()
 plt.title("Stacked Bar Chart")
 plt.show()
 ```
+
+![Stacked Bar Chart](./plots/stacked_bar_chart.png)
 
 ## 6. Clustered Bar Chart (Grouped Bar Chart)
 
@@ -152,6 +162,8 @@ plt.title("Clustered Bar Chart")
 plt.show()
 ```
 
+![Clustered Bar Chart](./plots/clustered_bar_chart.png)
+
 ## 7. KDE Plot (Kernel Density Estimate Plot)
 
 - **Definition:** A smooth curve showing the probability density of a continuous variable.
@@ -163,6 +175,8 @@ plt.title("KDE Plot")
 plt.show()
 ```
 
+![KDE Plot](./plots/kde_plot.png)
+
 ## 8. Box Plot
 
 - **Definition:** Displays data distribution using five-number summary — min, Q1, median, Q3, max.
@@ -173,6 +187,8 @@ sns.boxplot(data=[10, 20, 30, 40, 50, 100])
 plt.title("Box Plot")
 plt.show()
 ```
+
+![Box Plot](./plots/box_plot.png)
 
 ## 9. Violin Plot
 
@@ -186,6 +202,8 @@ plt.title("Violin Plot")
 plt.show()
 ```
 
+![Violin Plot](./plots/violin_plot.png)
+
 ## 10. Pair Plot
 
 - **Definition:** Creates scatter plots between all numeric columns in a dataset.
@@ -193,9 +211,11 @@ plt.show()
 
 ```python
 data = sns.load_dataset("iris")
-sns.pairplot(data, hue="species")
+sns.pairplot(data, hue="species" )
 plt.show()
 ```
+
+![Pair Plot](./plots/pair_plot.png)
 
 ## 11. Subplots
 
@@ -211,3 +231,5 @@ axes[1].set_title("Bar Chart")
 plt.tight_layout()
 plt.show()
 ```
+
+![Subplots](./plots/subplots.png)
