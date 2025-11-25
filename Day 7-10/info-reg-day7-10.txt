@@ -5,8 +5,12 @@ You can get one of day 8's question and one of day 9's question from the Assignm
 And you can find few codes from Lab experiments. 
 Day 7 and 8 problems is literally similar to day 4.
 So refer day day 4 to solve day 7 and day 8. 
+Day 9 concepts and code can be Sem Materials folder. Use it to implement it on your own.
 Day 10 is based on combining all the concepts learned so far. 
 I would strongly recommend solving it on your own so you can get a good understading of all concepts and codes. 
+Again day 10 is really crucial. EDA is really really important as you go furthur into Data Analysis or ML. 
+So make sure you are strong with your foundantions ( EDA )
 
 THANK YOU !!
+
 
