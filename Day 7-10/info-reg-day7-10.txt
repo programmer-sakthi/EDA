@@ -1,0 +1,12 @@
+I have not solved the problems for day 7 to 10 due to time constraints. 
+And most probably I wont be solving it.
+
+You can get one of day 8's question and one of day 9's question from the Assignment folder. 
+And you can find few codes from Lab experiments. 
+Day 7 and 8 problems is literally similar to day 4.
+So refer day day 4 to solve day 7 and day 8. 
+Day 10 is based on combining all the concepts learned so far. 
+I would strongly recommend solving it on your own so you can get a good understading of all concepts and codes. 
+
+THANK YOU !!
+
